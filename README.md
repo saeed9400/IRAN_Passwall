@@ -1,4 +1,5 @@
-# 🚀 Easy Passwall2 ... ( IRAN edition )
+<img width="1024" height="450" alt="Image" src="https://github.com/user-attachments/assets/ace11d99-b142-4964-b890-71204d9cac41" />
+🚀 Easy Passwall2 ... ( IRAN edition )
 
 
 ## ● توضیحات:
