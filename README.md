@@ -1,14 +1,19 @@
 <img width="1024" height="450" alt="Image" src="https://github.com/user-attachments/assets/ace11d99-b142-4964-b890-71204d9cac41" />
-
-
-
+<br>
+<br>
+<br>
+---
 ## ● توضیحات:
+<br>
 ###  ← این اسکریپت پکیچ PassWall2 را به راحتی و بوصرت کامل بروی دیوایس های با فریمور OpenWrt نصب میکند. 
 
 ###  ← با تفکیک ترافیک،  میتوانید سایت‌های داخلی ایران بدون پروکسی استفاده کنید.
 
 ###  ←  در صفحه تنظیمات PassWall2، وضعیت تفکیک ترافیک، دسترسی به اینترنت و عبور از فیلترینگ را بررسی است.
-
+<br>
+<br>
+---
+<br>
 ## ● ویژگی‌ها:
 - نصب پکیج PassWall2 تنها از منابع رسمی
 - نصب پکیج تفکیک ترافیک از منابع معتبر
@@ -22,7 +27,10 @@
 - روتر با OpenWrt نصب شده
 - اینترنت فعال
 - دسترسی SSH با سطح root
-
+<br>
+<br>
+---
+<br>
 ## ● نصب سریع
 #### 1. وارد ترمینال SSH شوید:  
    ```bash
@@ -34,7 +42,10 @@
 rm -f Passwall-IR.sh && wget https://raw.githubusercontent.com/saeed9400/Easy-IRAN-Passwall/main/Passwall-IR.sh && chmod +x Passwall-IR.sh && sh Passwall-IR.sh
    ```
 
-
+<br>
+<br>
+---
+<br>
 
 ## ● جزییات نصب برای انجام دستی مراحل:
 
