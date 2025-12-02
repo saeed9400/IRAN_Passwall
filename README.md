@@ -129,10 +129,6 @@ chmod +x Passwall-IR.sh && ./Passwall-IR.sh
 
 <br>
 
---------------------------------------------
-<a href="https://github.com/saeed9400/IRAN_Passwall2/blob/main/README.md">◄ راهنما فارسی ► </a>
-<br>
-<br>
 
 --------------------------------------------
 
