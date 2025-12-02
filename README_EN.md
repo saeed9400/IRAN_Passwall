@@ -3,7 +3,7 @@
 <br>
 
 --------------------------------------------
-<a href="https://github.com/saeed9400/Easy-IRAN-Passwall/blob/main/README.md">◄ راهنما فارسی ► </a>
+<a href="https://github.com/saeed9400/IRAN_Passwall2/blob/main/README.md">◄ راهنما فارسی ► </a>
 <br>
 <br>
 
@@ -48,7 +48,7 @@
 2. Download and run the script:
 
    ```bash
-    rm -f Passwall-IR.sh && wget https://raw.githubusercontent.com/saeed9400/Easy-IRAN-Passwall/main/Passwall-IR.sh && chmod +x Passwall-IR.sh && sh Passwall-IR.sh
+    rm -f Passwall-IR.sh && wget https://raw.githubusercontent.com/saeed9400/IRAN_Passwall2/main/Passwall-IR.sh && chmod +x Passwall-IR.sh && sh Passwall-IR.sh
    ```
 
 ------------------------------------------------------------------------
@@ -70,7 +70,7 @@ switch to OpenWrt.
 2. Download the script:
 
    ```bash
-    wget https://raw.githubusercontent.com/saeed9400/Easy-IRAN-Passwall/main/Passwall-IR.sh -O Passwall-IR.sh
+    wget https://raw.githubusercontent.com/saeed9400/IRAN_Passwall2/main/Passwall-IR.sh -O Passwall-IR.sh
    ```
 
 3. Run the script:
