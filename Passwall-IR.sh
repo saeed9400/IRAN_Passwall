@@ -166,6 +166,7 @@ log_ok "Global forwarding configured"
 echo ""
 log_repo "---------------------------------------------------------------"
 echo ""
+
 log_info "Removing default unnecessary rules..."
 for r in ProxyGame GooglePlay Netflix OpenAI Proxy China QUIC UDP; do
     uci -q delete passwall2.$r
@@ -173,17 +174,12 @@ done
 log_ok "Default rules removed"
 
 
-### 8. Delete unused rules
-uci delete passwall2.ProxyGame
-uci delete passwall2.GooglePlay
-uci delete passwall2.Netflix
-uci delete passwall2.OpenAI
-uci delete passwall2.Proxy
-uci delete passwall2.China
-uci delete passwall2.QUIC
-uci delete passwall2.UDP
+### 8. IRAN direct rules
+echo ""
+log_repo "---------------------------------------------------------------"
+echo ""
+log_info "َAdd IRAN Geo (ip/site) direct rules..."
 
-### 9. IRAN direct rules
 uci set passwall2.Direct=shunt_rules
 uci set passwall2.Direct.network='tcp,udp'
 uci set passwall2.Direct.remarks='IRAN Geo'
@@ -220,7 +216,14 @@ ff00::/8'
 uci set passwall2.Direct.domain_list='regexp:^.+\.ir$
 geosite:category-ir'
 
-### 10. International direct rule
+log_ok "IRAN Geo (ip/site) direct rules is set..."
+
+### 9. International direct rule
+echo ""
+log_repo "---------------------------------------------------------------"
+echo ""
+log_info "َAdd International Public (ip/site) direct rules..."
+
 uci set passwall2.DirectGame=shunt_rules
 uci set passwall2.DirectGame.network='tcp,udp'
 uci set passwall2.DirectGame.remarks='International-Direct'
@@ -292,6 +295,13 @@ uci set passwall2.myshunt.Direct='_direct'
 uci set passwall2.myshunt.DirectGame='_direct'
 uci delete passwall2.myshunt
 
+log_ok " International Public (ip/site) direct rules is set..."
+
+echo ""
+log_repo "---------------------------------------------------------------"
+echo ""
+log_info "َUpdateing Shunt..."
+
 ###  11. MainShunt
 uci set passwall2.MainShunt=nodes
 uci set passwall2.MainShunt.remarks='MainShunt'
@@ -317,8 +327,7 @@ my.irancell.ir'
 
 uci commit
 
-log_ok "IRAN rule is set..."
-
+log_ok " Updating is set..."
 # 14. Download banner
 echo ""
 log_repo "---------------------------------------------------------------"
