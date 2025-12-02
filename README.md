@@ -6,7 +6,7 @@
 Easy Iran PassWall – Install PassWall2 on OpenWrt with full Iran traffic routing, smart filtering, GeoIP database, and automatic setup. Fast install script for all OpenWrt devices.
 <br>
 
-<a href="https://github.com/saeed9400/Easy-IRAN-Passwall/blob/main/README_EN.md">► English Description ◄ </a>
+<a href="https://github.com/saeed9400/IRAN_Passwall2/blob/main/README_EN.md">► English Description ◄ </a>
 <br>
 <br>
 
@@ -60,7 +60,7 @@ Easy Iran PassWall – Install PassWall2 on OpenWrt with full Iran traffic routi
 
 ### 2. سپس دستور زیر را برای دانلود و اجرای اسکریپت اجرا کنید:
    ```bash
-rm -f Passwall-IR.sh && wget https://raw.githubusercontent.com/saeed9400/Easy-IRAN-Passwall/main/Passwall-IR.sh && chmod +x Passwall-IR.sh && sh Passwall-IR.sh
+rm -f Passwall-IR.sh && wget https://raw.githubusercontent.com/saeed9400/IRAN_Passwall2/main/Passwall-IR.sh && chmod +x Passwall-IR.sh && sh Passwall-IR.sh
    ```
 
 <br>
@@ -90,7 +90,7 @@ rm -f Passwall-IR.sh && wget https://raw.githubusercontent.com/saeed9400/Easy-IR
 #### 2. با این فرمان اسکریپت را دانلود کنید:
 
    ```bash
-wget https://raw.githubusercontent.com/saeed9400/Easy-IRAN-Passwall/main/Passwall-IR.sh -O Passwall-IR.sh
+wget https://raw.githubusercontent.com/saeed9400/IRAN_Passwall2/main/Passwall-IR.sh -O Passwall-IR.sh
    ```
 
 #### 3. با این فرمان اسکریپت را اجرا کنید:
