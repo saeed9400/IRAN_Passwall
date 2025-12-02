@@ -2,7 +2,6 @@
 
 <br>
 
---------------------------------------------
 <a href="https://saeed9400.github.io/IRAN_Passwall2/">► Web Page ◄ </a>
 <br>
 <br>
